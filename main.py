@@ -1,11 +1,11 @@
-from src.kerascode import entrenar_y_evaluar
+from src.kerascode import train_and_evaluate
 
 def main():
     """
-    Función principal del entrenamiento
+    Main training function
     """
-    print("Iniciando el entrenamiento")
-    entrenar_y_evaluar()
+    print("Starting training")
+    train_and_evaluate()
 
 if __name__ == "__main__":
     main()
